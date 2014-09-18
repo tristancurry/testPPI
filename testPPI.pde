@@ -12,7 +12,7 @@ void setup() {
   int pixelsPerInch = int(round(metrics.ydpi));
   */
   
-  //comment next line out for Android mode, in for Java
+  //comment the next line out for Android mode, in for Java
   int pixelsPerInch = java.awt.Toolkit.getDefaultToolkit().getScreenResolution();
 
   int rectWidthInches = 2;
