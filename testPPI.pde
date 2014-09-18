@@ -9,7 +9,7 @@ void setup() {
   import android.util.DisplayMetrics;
   DisplayMetrics metrics = new DisplayMetrics();
   getWindowManager().getDefaultDisplay().getMetrics(metrics);
-  int pixelsPerInch = metrics.densityDpi;
+  int pixelsPerInch = int(round(metrics.ydpi));
   */
   
   //comment the next line out for Android mode, in for Java
