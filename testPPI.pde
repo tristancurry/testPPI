@@ -26,7 +26,8 @@ void setup() {
   fill(255);
   textAlign(CENTER, CENTER);
   textSize(0.1*height);
-  text("box should be 2 inches across", width/2, height/2);
+  text("box should be 2 inches across", width/2, height/3);
+  text("(50.8 mm, if you speak metric)", width/2, 2*height/3);
   noLoop();
 }
 
